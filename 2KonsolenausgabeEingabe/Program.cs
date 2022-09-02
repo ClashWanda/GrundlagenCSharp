@@ -15,6 +15,13 @@ Console.WriteLine(Alter);
 
 
 //A3
+string vorname;
+string alter;
+string klasse;
 
+Console.WriteLine("Geben Sie ihre Daten ein!");
+vorname = Console.ReadLine();
+alter = Console.ReadLine();
+klasse = Console.ReadLine();
 
-
+Console.WriteLine($"{vorname} ist {alter} Jahre alt und besucht die {klasse} des Georg-Simon-Ohm Berufskolleg");
